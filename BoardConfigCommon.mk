@@ -178,6 +178,7 @@ TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
 ifneq ($(TARGET_IS_TABLET),true)
 TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor_phone.prop
 endif
+TARGET_SYSTEM_EXT_PROP += $(COMMON_PATH)/system_ext.prop
 
 # Recovery
 ifeq ($(TARGET_IS_VAB),true)
