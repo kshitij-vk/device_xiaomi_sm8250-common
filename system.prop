@@ -42,6 +42,11 @@ ro.vendor.perf.scroll_opt=true
 # Radio
 persist.vendor.radio.report_codec=1
 
+# Radio VoNR
+persist.radio.is_vonr_enabled_0=true
+persist.radio.is_vonr_enabled_1=true
+persist.vendor.vonr_setting_support=1
+
 # WFD
 vendor.wfdservice64=enable
 
