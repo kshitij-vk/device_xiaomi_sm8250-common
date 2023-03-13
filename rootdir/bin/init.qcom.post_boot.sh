@@ -6232,3 +6232,18 @@ esac
 misc_link=$(ls -l /dev/block/bootdevice/by-name/misc)
 real_path=${misc_link##*>}
 setprop persist.vendor.mmi.misc_dev_path $real_path
+
+# Runtime fs tuning
+echo 128 > /sys/block/sda/queue/read_ahead_kb
+echo 128 > /sys/block/sda/queue/nr_requests
+echo 1 > /sys/block/sda/queue/iostats
+echo 128 > /sys/block/dm-0/queue/read_ahead_kb
+echo 128 > /sys/block/dm-1/queue/read_ahead_kb
+echo 128 > /sys/block/dm-2/queue/read_ahead_kb
+echo 128 > /sys/block/dm-3/queue/read_ahead_kb
+echo 128 > /sys/block/dm-4/queue/read_ahead_kb
+echo 128 > /sys/block/dm-5/queue/read_ahead_kb
+echo 128 > /sys/block/dm-6/queue/read_ahead_kb
+echo 128 > /sys/block/dm-7/queue/read_ahead_kb
+echo 128 > /sys/block/dm-8/queue/read_ahead_kb
+echo 128 > /sys/block/dm-9/queue/read_ahead_kb
