@@ -310,14 +310,10 @@ $(call soong_config_set,lineage_health,charging_control_supports_bypass,false)
 # Media configs
 PRODUCT_PACKAGES += \
     media_codecs_c2.xml \
-<<<<<<< HEAD
     media_codecs_performance_c2.xml \
     video_system_specs.json \
     media_codecs_kona.xml \
     media_codecs_performance_kona.xml
-=======
-    media_codecs_performance_c2.xml
->>>>>>> 8373f9d (sm8250-common: remove OMX)
 
 # NFC
 PRODUCT_PACKAGES += \
