@@ -211,6 +211,9 @@ $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/xiaomi:libudfps_exte
 endif
 endif
 
+# Blur
+TARGET_ENABLE_BLUR := true
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.qti
