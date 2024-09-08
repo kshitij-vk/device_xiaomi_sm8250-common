@@ -303,9 +303,7 @@ $(call soong_config_set,lineage_health,charging_control_supports_bypass,false)
 # Media configs
 PRODUCT_PACKAGES += \
     media_codecs_c2.xml \
-    media_codecs_performance_c2.xml \
-    media_codecs_kona.xml \
-    media_codecs_performance_kona.xml
+    media_codecs_performance_c2.xml
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -325,11 +323,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.nxp.mifare.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_nfc/com.nxp.mifare.xml
 
 # OMX
-PRODUCT_PACKAGES += \
-    libOmxCore \
-    libOmxVdec \
-    libOmxVenc \
-    libstagefrighthw
+TARGET_SUPPORTS_OMX_SERVICE := false
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
