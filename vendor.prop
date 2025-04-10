@@ -246,9 +246,6 @@ ro.vendor.extension_library=libqti-perfd-client.so
 persist.vendor.qcomsysd.enabled=1
 
 # Radio
-persist.radio.NO_STAPA=1
-persist.radio.VT_HYBRID_ENABLE=1
-persist.radio.dynamic_sar=false
 persist.radio.multisim.config=dsds
 persist.rcs.supported=1
 persist.vendor.data.mode=concurrent
@@ -304,6 +301,3 @@ wifi.aware.interface=wifi-aware0
 
 # Zygote
 zygote.critical_window.minute=10
-
-# HWUI
-ro.hwui.render_ahead=2
