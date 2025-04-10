@@ -65,6 +65,13 @@ ro.vendor.perf.scroll_opt=true
 
 # Radio
 persist.vendor.radio.report_codec=1
+persist.radio.NO_STAPA=1
+persist.radio.VT_HYBRID_ENABLE=1
+persist.radio.dynamic_sar=false
+persist.mm.enable.prefetch=true
+
+# HWUI
+ro.hwui.render_ahead=2
 
 # Radio VoNR
 persist.radio.is_vonr_enabled_0=true
