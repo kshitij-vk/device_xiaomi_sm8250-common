@@ -182,6 +182,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.composer-service
 
 PRODUCT_PACKAGES += \
+    android.hidl.base@1.0 \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     vendor.display.config@1.9 \
