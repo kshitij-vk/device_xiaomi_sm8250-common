@@ -180,7 +180,8 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.display.composer-service
+    vendor.qti.hardware.display.composer-service \
+    vendor.qti.hardware.display.config-V5-ndk
 
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
