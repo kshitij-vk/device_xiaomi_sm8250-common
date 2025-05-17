@@ -86,7 +86,7 @@ function blob_fixup() {
             ;;
         system_ext/bin/wfdservice64)
             [ "$2" = "" ] && return 0
-            grep -q "libwfdservice_shim_v1.so" "${2}" || "${PATCHELF}" --add-needed libwfdservice_shim_v1.so "${2}"
+            grep -q "libwfdservice_shim.so" "${2}" || "${PATCHELF}" --add-needed libwfdservice_shim.so "${2}"
             ;;
         system_ext/lib64/libwfdnative.so)
             [ "$2" = "" ] && return 0
