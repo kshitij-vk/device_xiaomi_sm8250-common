@@ -76,9 +76,6 @@ persist.radio.is_vonr_enabled_0=true
 persist.radio.is_vonr_enabled_1=true
 persist.vendor.vonr_setting_support=1
 
-# WFD
-vendor.wfdservice64=enable
-
 # Logs
 persist.log.tag.AnalyticsService=S
 persist.log.tag.KernelCpuUidActiveTimeReader=S
