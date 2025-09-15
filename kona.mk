@@ -10,6 +10,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Include debug tools
 #$(call inherit-product, hardware/xiaomi/debug-tools/debug.mk)
 
+# Dolby
+$(call inherit-product, hardware/dolby/dolby.mk)
+
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
@@ -161,7 +164,6 @@ endif
 # Device-specific settings
 PRODUCT_PACKAGES += \
    DSPVolumeSynchronizer \
-    XiaomiDolby \
     XiaomiParts
 
 # Dolby Props
