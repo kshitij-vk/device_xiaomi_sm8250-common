@@ -491,8 +491,7 @@ PRODUCT_PACKAGES += \
 # Wi-Fi Display
 PRODUCT_PACKAGES += \
     libinput_shim \
-    libgui_shim \
-    libwfdaac_vendor
+    libgui_shim
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
