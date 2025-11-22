@@ -19,7 +19,6 @@ void set_variant_props(const variant_info& variant);
     std::string device;
     std::string name;
     std::string marketname;
-    std::string mod_device;
     std::string model;
     std::string build_fingerprint;
 
